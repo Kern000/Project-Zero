@@ -1,0 +1,159 @@
+
+.header{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    box-sizing: border-box;   
+
+}
+
+.header1{
+
+    font-size: 60px;
+    color: black;
+    font-weight: 800px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(transparent, transparent, transparent, transparent, transparent, #5cb8b2);
+
+}
+
+.mid-header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    box-sizing: border-box;   
+
+}
+
+.header2{
+
+    font-size: 35px;
+    color: palevioletred;
+    font-weight: 700px;
+
+}
+
+.menu-showcase {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+    margin-left: 80px;
+
+}
+
+
+
+.menu-container{
+
+    display:flex;
+    margin: 20px 35px 20px 35px;
+    flex-direction: column;
+    overflow-wrap: normal;
+    justify-content: center;
+    align-items: center;
+    transition: filter 0.3s ease;
+
+}
+
+.menu-item {
+ 
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+.menu-item:hover {
+    
+    filter: brightness(1.1);
+    
+}
+
+.price {
+
+    margin-top: 2px;
+
+}
+
+
+.underline{
+
+    font-size: 15px;
+    
+}
+
+.header4{
+
+    font-size: 60px;
+    color: white;
+    font-weight: 800px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(transparent, transparent, transparent, transparent, transparent, #5cb8b2);
+
+}
+
+.header5{
+
+    margin: 20px 25px 10px 25px;
+    font-size: 25px;
+    color: white;
+
+}
+
+.writeup1{
+
+    margin: 20px 25px 10px 25px;
+    font-size: 17px;
+    color: bisque;
+}
+
+.writeup2{
+
+    margin: 20px 25px 80px 25px;
+    font-size: 15px;
+    color: palegoldenrod;
+}
+
+.description{
+
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: roboto, calibri;
+    font-weight: 800;
+}
+
+
+
+@media (min-width: 700px) {
+
+    .header {
+    
+        margin-left: 150px;
+    
+}
+
+    .menu-showcase{
+
+        margin-left: 150px;
+    }
+
+    .mid-header{
+
+        margin-left:150px;
+    }
+
+}
+
+

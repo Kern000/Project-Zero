@@ -1,0 +1,20 @@
+[
+    
+    {
+    "brand" : "Toyota",
+    "model" : "Wish",
+    "price" : 10000
+    }
+    , 
+    {
+        "brand" : "Toyota",
+        "model" : "Wish",
+        "price" : 10000
+    }
+    ,
+    {
+        "brand" : "Toyota",
+        "model" : "Wish",
+        "price" : 10000
+    }
+]

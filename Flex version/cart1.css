@@ -1,0 +1,26 @@
+.cart-add {
+
+    background-color: lightgreen;
+    font-family: roboto, calibri;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.cart-add:hover{
+
+    background-color: white;
+
+}
+
+.cart-add:active{
+
+    background-color: green;
+
+}
+
+.toast{
+
+    z-index: 1;
+
+}

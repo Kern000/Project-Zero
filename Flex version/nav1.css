@@ -1,0 +1,101 @@
+.side-bar {
+
+    height: 100vh;
+    position: absolute;
+    background-color: purple;
+    top: 140px;
+    left: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+.nav-item {
+
+    padding: 15px 25px 15px 5px;
+    margin: 1px 0px;
+    border: 2px solid black;
+    width: 60px;
+    transform: rotate(-10deg) skew(-10deg);
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-weight: 800px;
+    font-size: 8px;
+    transition: filter 0.3s;
+}
+
+.nav-item:hover {
+
+    box-shadow: 5px 5px 5px gray;
+    filter: brightness(1.2);
+}
+
+.nav-item1 {
+
+    position: fixed;
+    background-color: black;
+    top: 117px;
+    left: 2px;
+
+
+}
+
+
+.nav-item2 {
+
+    position: fixed;
+    background: lightgray;
+    top: 205px;
+    left: 2px;
+    color: black;
+}
+
+.nav-item3 {
+
+    position: fixed;
+    top: 290px;
+    left: 2px;
+    background: lightgray;
+    color: black;
+}
+
+.nav-item4 {
+
+    position: fixed;
+    top: 375px;
+    left: 2px;
+    background: lightgray;
+    color: black;
+}
+
+.nav-item5 {
+
+    position: fixed;
+    top: 460px;
+    left: 2px;
+    background: lightgray;
+    color: black;
+}
+
+
+@media (min-width: 700px) {
+
+.nav-item1,
+.nav-item2,
+.nav-item3,
+.nav-item4,
+.nav-item5 {
+
+    width: 150px;
+    font-size: 20px;
+    padding: 25px 25px 25px 25px;
+    left: 3px;
+
+}
+
+}
+
+
+
